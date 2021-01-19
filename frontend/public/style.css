@@ -1,10 +1,25 @@
 /*prevent default */
+body{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+li{
+    list-style: none;
+    line-height: 1.9;
+}
+a{
+    text-decoration: none;
+}
+
+
 .frontpage{
     background-image: url('/frontend/images/login.jpg');
     background-size: cover;
     background-repeat: no-repeat;
     height: 100%;
     font-family: 'Numans', sans-serif;
+    width: 100%;
     }
     
     .container{
@@ -12,7 +27,7 @@
     align-content: center;
     }
     
-    .card{
+    .logpage{
     height: 370px;
     margin-top: auto;
     margin-bottom: auto;
@@ -97,14 +112,17 @@
     .gedf-wrapper {
         margin-top: 0.97rem;
     }
+    
+       
+    
 
-
-    @media (min-width: 800px) {
+    @media (min-width: 992px) {
         .gedf-main {
-            padding-left: 7rem;
-            padding-right: 3rem;
+            padding-left: 4rem;
+            padding-right: 4rem;
         }
         .gedf-card {
-            margin-bottom: 1.77rem;
+            margin-bottom: 2.77rem;
+           
         }
     }
